@@ -1,0 +1,65 @@
+form{
+  width: 400px;
+  height: 500px;
+  position: relative;
+  top: 70px;
+  left: 500px;
+  border: 2px solid black;
+  border-radius: 30px;
+  background: linear-gradient(25deg,skyblue,whitesmoke);
+}
+
+#text{
+  
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  font-weight: 600;
+  line-height: 26px;
+  border-radius: 10px;
+  background-color: linear-gradient(25deg,skyblue,whitesmoke);
+}
+
+#btn{
+  width: 80px;
+  height: 32px;
+  position: absolute;
+  left: 250px;
+  top: 50px;
+  border-radius: 10px;
+  border-color: grey;
+  font-size: large;
+  font-weight: 600;
+  background-color: skyblue;
+  
+}
+#btn:hover{
+  border-color: skyblue;
+  background-color: rgb(72, 186, 231);
+  cursor: pointer;
+}
+
+p{
+  position: absolute;
+  top: 180px;
+  left: 150px;
+  font-size: xx-large;
+  font-style: oblique;
+  width: fit-content;
+}
+.demo1{
+  position: relative;
+  top: 350px;
+  left: 20px;
+}
+.demo2{
+  position: relative;
+  top: 273px;
+  left: 200px;
+}
+
+#hname{
+  position: relative;
+  left: 600px;
+  width: fit-content;
+}
